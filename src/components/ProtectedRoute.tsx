@@ -11,8 +11,8 @@ export default function ProtectedRoute({ children }: ProtectedRouteProps) {
 
   if (loading) {
     return (
-      <div className="flex h-screen items-center justify-center">
-        <span className="text-gray-500">Loading…</span>
+      <div className="flex h-screen items-center justify-center bg-zinc-950">
+        <div className="h-6 w-6 animate-spin rounded-full border-2 border-zinc-700 border-t-blue-500" />
       </div>
     )
   }

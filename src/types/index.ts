@@ -7,3 +7,16 @@ export interface AuthContextValue {
   signIn: (email: string, password: string) => Promise<void>
   signOut: () => Promise<void>
 }
+
+export type {
+  SnapTradeUser,
+  SnapTradeAccount,
+  InvestmentHolding,
+  InvestmentTransaction,
+  PortfolioSummary,
+  HoldingRow,
+  RegisterUserResponse,
+  GetConnectionLinkResponse,
+  SyncHoldingsResponse,
+  SyncTransactionsResponse,
+} from './snaptrade'

@@ -10,7 +10,11 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/jetbrains-mono": "^5.2.8",
     "@supabase/supabase-js": "^2.47.0",
+    "lightweight-charts": "^5.1.0",
+    "lucide-react": "^0.575.0",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-router-dom": "^6.28.0"
